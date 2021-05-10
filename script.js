@@ -4,7 +4,7 @@ document.querySelector('button').addEventListener('click', function () {
   let answer = 0
   num1 = parseInt(num1)
   num2 = parseInt(num2)
-  for (counter = 0; counter < num1; counter ++) {
+  for (let counter = 0; counter < num1; counter ++) {
     answer = answer + num2
   }
   alert(answer)
